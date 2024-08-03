@@ -1,0 +1,63 @@
+/* WhatWeDo.css */
+.what-we-do-section {
+  padding: 5rem 2rem; /* Padding for the section */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between text content and boxes */
+}
+
+.what-we-do-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px; /* Max width for content */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.text-content {
+  flex: 1; /* Text content takes up available space */
+}
+
+.text-content h2 {
+  font-size: 2.5rem; /* Increased font size for the title */
+  color: #333; /* Dark text color */
+  font-weight: 600; /* Font weight for the title */
+  margin-bottom: 1rem; /* Space below title */
+}
+
+.text-content p {
+  font-size: 1.25rem; /* Increased font size for the paragraph text */
+  color: #666; /* Subtle text color */
+  font-weight: 600; /* Font weight for paragraph text */
+  margin-bottom: 1rem; /* Space between paragraphs */
+}
+
+.subtitle {
+  font-size: 1.5rem; /* Increased font size for the subtitle */
+}
+
+.boxes-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align boxes to the left */
+  margin-top: 0; /* Ensure no extra margin at the top */
+}
+
+.box-item {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 1rem; /* Space between items */
+  width: 100%; /* Ensure items take full width */
+}
+
+.checkbox {
+  width: 1.5rem; /* Width of the checkbox */
+  height: 1.5rem; /* Height of the checkbox */
+  background-color: #d3d3d3; /* Light gray background color */
+  border-radius: 3px; /* Rounded corners for the checkbox */
+  margin-right: 1rem; /* Space between checkbox and text */
+}
+
+.box-item p {
+  font-size: 1.125rem; /* Increased font size for box text */
+  margin: 0; /* Remove default margin for paragraphs */
+}

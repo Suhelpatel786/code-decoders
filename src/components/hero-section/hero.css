@@ -1,0 +1,63 @@
+/* Hero.css */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem; /* Padding from top and bottom */
+  background-color: white; /* Set background color to white */
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px; /* Maximum width for the container */
+  width: 100%;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 50%;
+  padding-right: 3rem; /* Space between text and image */
+}
+
+.hero-text h1 {
+  font-size: 2.8rem; /* Font size for main heading */
+  color: #333; /* Dark text color */
+  font-weight: 600; /* Font weight for bold text */
+  margin-bottom: 1rem; /* Space below heading */
+  line-height: 1.2; /* Line height */
+}
+
+.hero-text p {
+  font-size: 1.25rem; /* Font size for subheading */
+  color: #666; /* Subheading text color */
+  font-weight: 600; /* Font weight for subheading */
+  margin-bottom: 2rem; /* Space below subheading */
+}
+
+.cta-button {
+  background-color: #fff; /* White background color */
+  color: #333; /* Dark text color */
+  border: 2px solid #333; /* Dark border color */
+  padding: 0.75rem 1.5rem; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; /* Font size */
+  font-weight: 600; /* Font weight */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Transition effects */
+}
+
+.cta-button:hover {
+  background-color: #333; /* Dark background color on hover */
+  color: #fff; /* White text color on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.hero-image-container {
+  flex: 1;
+  max-width: 50%;
+  height: 400px; /* Height for image container */
+  background-color: #d3d3d3; /* Light gray background color */
+  border-radius: 10px; /* Rounded corners */
+}

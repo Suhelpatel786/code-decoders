@@ -1,0 +1,75 @@
+/* Featured.css */
+.featured-section {
+  padding: 5rem 2rem; /* Padding for the section */
+  text-align: center; /* Center-align text */
+  /* background-color: #fff; White background for the section */
+}
+
+.featured-title {
+  font-size: 2.5rem; /* Font size for the title */
+  color: #333; /* Dark text color */
+  font-weight: 600; /* Font weight for the title */
+  margin-bottom: 1rem; /* Space below the title */
+}
+
+.featured-subheading {
+  font-size: 1.25rem; /* Font size for the subheading */
+  color: #666; /* Subtle text color */
+  font-weight: 400; /* Font weight for the subheading */
+  margin-bottom: 2rem; /* Space below the subheading */
+  max-width: 800px; /* Max width to limit text line length */
+  margin-left: auto; /* Center text block horizontally */
+  margin-right: auto; /* Center text block horizontally */
+}
+
+.feature-cards {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+  gap: 4rem; /* Space between cards */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+}
+
+.feature-card {
+  border: 1px solid lightgray;
+  background-color: white; /* Light gray background for the card */
+  border-radius: 8px; /* Rounded corners for the card */
+  /* padding: 1rem; Padding inside the card */
+  width: 20%; /* Adjusted width of each card */
+  height: 450px; /* Increased height of each card */
+  margin-bottom: 2rem; /* Space below each card */
+  text-align: center; /* Center-align text in the card */
+  box-sizing: border-box; /* Ensure padding is included in the width and height */
+}
+
+.card-image {
+  width: 100%;
+  height: 200px; /* Height of the image container */
+  background-color: #d3d3d3; /* Light gray background color */
+  /* border-radius: 8px; Rounded corners for the image container */
+  margin-bottom: 3rem; /* Space below the image container */
+  padding: 0; /* No padding inside the image container */
+}
+
+.card-title {
+  font-size: 1.5rem; /* Font size for the card title */
+  color: #333; /* Dark text color */
+  font-weight: 600; /* Font weight for the title */
+  margin-bottom: 1rem; /* Space below the title */
+}
+
+.card-text {
+  font-size: 1rem; /* Font size for the card text */
+  color: #666; /* Subtle text color */
+  margin-bottom: 1.5rem; /* Space below the text */
+}
+
+.card-button {
+  background-color: #d3d3d3; /* Light gray background color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for the button */
+  color: #333; /* Dark text color */
+  padding: 0.75rem 1.5rem; /* Padding inside the button */
+  font-size: 1rem; /* Font size for the button text */
+  cursor: pointer; /* Pointer cursor on hover */
+}

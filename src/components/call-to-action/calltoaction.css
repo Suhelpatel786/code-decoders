@@ -1,0 +1,50 @@
+/* CallToAction.css */
+.cta-section {
+  display: flex;
+  align-items: center;
+  padding: 5rem 2rem; /* Padding for the section */
+  background-color: #f3f3f3; /* Light gray background color */
+}
+
+.cta-content {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  width: 100%;
+  max-width: 1200px; /* Max width for content */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.cta-text {
+  flex: 1; /* Allow text to take up available space */
+  margin-right: 2rem; /* Space between text and button */
+}
+
+.cta-text h2 {
+  font-size: 2rem; /* Font size for the title */
+  color: #333; /* Dark text color */
+  font-weight: 600; /* Font weight for bold text */
+  margin-bottom: 1rem; /* Space below title */
+}
+
+.cta-text p {
+  font-size: 1.25rem; /* Font size for the subtitle */
+  color: #666; /* Subtle text color */
+  font-weight: 600; /* Font weight for subtitle */
+}
+
+.cta-button {
+  background-color: #d3d3d3; /* Light gray background color */
+  color: #333; /* Dark text color */
+  border: none;
+  padding: 0.75rem 2rem; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; /* Font size */
+  font-weight: 600; /* Font weight */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transition effects */
+}
+
+.cta-button:hover {
+  background-color: #b0b0b0; /* Slightly darker light gray on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}

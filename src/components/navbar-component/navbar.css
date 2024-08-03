@@ -1,0 +1,57 @@
+/* Navbar.css */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem 6rem;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem; /* Added padding to left and right */
+}
+
+.logo {
+  width: 100px; /* Increased width */
+  height: 50px; /* Increased height */
+  background-color: gray;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.1rem; /* Increased font size */
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.cta-button {
+  background-color: #d3d3d3; /* Light gray background color */
+  color: #333; /* Darker text color */
+  border: none;
+  padding: 0.7rem 1.5rem; /* Increased padding */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #c0c0c0; /* Slightly darker gray on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
